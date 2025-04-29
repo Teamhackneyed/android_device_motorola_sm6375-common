@@ -4,6 +4,10 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
 
